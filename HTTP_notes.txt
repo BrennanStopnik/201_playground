@@ -1,0 +1,4 @@
+Browser request
+    ISP -> DNS lookup and Address return.
+    ISP -> DNS request then DNS response.
+    
