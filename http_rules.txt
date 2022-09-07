@@ -1,0 +1,4 @@
+HTTP Rules (Hypertext)
+    1. An exchange of information across the internet MUST start with a Request
+    2. Only 1 Response can come 1 Request. No more, no less.
+    3. The data sent in HTTP requests is always going to be
