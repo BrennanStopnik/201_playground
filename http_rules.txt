@@ -1,4 +1,15 @@
 HTTP Rules (Hypertext)
     1. An exchange of information across the internet MUST start with a Request
     2. Only 1 Response can come 1 Request. No more, no less.
-    3. The data sent in HTTP requests is always going to be
+    3. The data sent in HTTP requests is always going to be plain text
+        - Note: If we want to send a JSON object, we need to stringify the object first
+        - Note: In order for the browser to renser the data, it needs an HTML file to tell the browser how to render the HTML + CSS will tell the browser the structure of a page and how to make it look.
+    4. There are 4 types of HTTP Requests: GET, POST, PUT, DELETE
+        - GET is used for fetching data from a server. There cannot be any body payload that goes with it.
+        - POST is used to create data on the server. The Post request comes with a request body payload.
+        - PUT is used to modify data on the server, and acts similarly to the Post request.
+        - DELETE is used to delete data from the server.
+        - AKA: CRUD (Create, Read, Update, Delete).
+    5. There are 3 ways to send user data from the server
+        - Query Params: req.query - Used primarily to modify the request parameters
+        - Route Params: req.params - 
